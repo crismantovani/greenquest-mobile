@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GreenQuest</string>
+    <string name="text_email">Digite seu e-mail</string>
+    <string name="text_password">Digite sua senha</string>
+    <string name="btn_login">Login</string>
+    <string name="signup">Não tem uma conta?</string>
+    <string name="link_signup">Cadastra-se</string>
+
+    <string name="dc_vetor">Desenho ondulado na cor verde</string>
+    <string name="dc_logo">Logo do aplicativo GreenQuest</string>
+
+
+
+
+
+    <string name="signup_name">Digite seu nome</string>
+    <string name="signup_email">Cadastre seu e-mail</string>
+    <string name="signup_password">Cadastre uma senha</string>
+    <string name="confirm_password">Confirme sua senha</string>
+    <string name="btn_register">Cadastrar</string>
+</resources>
