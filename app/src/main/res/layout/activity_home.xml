@@ -38,7 +38,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-
     <ImageButton
         android:id="@+id/btnUser"
         android:layout_width="50dp"
@@ -140,6 +139,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/plant" />
+
     <TextView
         android:id="@+id/textUser"
         android:layout_width="wrap_content"
@@ -153,6 +153,7 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintEnd_toEndOf="@+id/topBar"
         app:layout_constraintTop_toTopOf="@+id/topBar" />
+
     <TextView
         android:id="@+id/textMenu"
         android:layout_width="wrap_content"
@@ -177,6 +178,7 @@
         app:layout_constraintEnd_toEndOf="@+id/btnShield"
         app:layout_constraintStart_toStartOf="@+id/btnShield"
         app:layout_constraintTop_toBottomOf="@+id/btnShield" />
+
 
     <TextView
         android:id="@+id/textDumbbell"
@@ -230,5 +232,6 @@
         app:layout_constraintEnd_toEndOf="@+id/btnMore"
         app:layout_constraintStart_toStartOf="@+id/btnMore"
         app:layout_constraintTop_toBottomOf="@+id/btnMore" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
