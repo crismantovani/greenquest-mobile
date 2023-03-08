@@ -15,8 +15,15 @@
     <string name="btn_register">Cadastrar</string>
 
 <!--    TELA PRINCIPAL-->
+    <string name="txt_user">Olá, Thais!</string>
     <string name="txt_menu">O que você procura?</string>
     <string name="txt_shield">Ligas</string>
+    <string name="txt_dumbbell">Praticar</string>
+    <string name="txt_question">Aprender</string>
+    <string name="txt_forum">Fórum</string>
+    <string name="txt_store">Loja</string>
+    <string name="txt_more">Mais</string>
+
 
     <!--      DESCRIÇÃO DE IMAGENS-->
     <string name="dc_vetor">Desenho ondulado na cor verde</string>
@@ -28,4 +35,9 @@
 
 <!--    DESCRIÇÃO BOTÕES-->
     <string name="btn_shield">Botão Ligas</string>
+    <string name="btn_dumbbell">Botão Praticar</string>
+    <string name="btn_question">Botão Aprender</string>
+    <string name="btn_forum">Botão Fórum</string>
+    <string name="btn_store">Botão Loja</string>
+    <string name="btn_more">Botão Mais</string>
 </resources>
