@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EBF3E8">
+    android:background="#EBF3E8"
+    tools:context=".SignUp">
 
     <ImageView
         android:id="@+id/imgTop"
@@ -14,7 +15,7 @@
         android:contentDescription="@string/dc_vetor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_login" />
+        app:srcCompat="@drawable/img_top_bar" />
 
     <EditText
         android:id="@+id/signUpName"
@@ -97,6 +98,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="64dp"
         android:background="@drawable/border_btn"
+        android:backgroundTint="#5C9249"
         android:text="@string/btn_register"
         android:textSize="16sp"
         android:textStyle="bold"
