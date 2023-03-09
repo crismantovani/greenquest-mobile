@@ -214,6 +214,7 @@
         app:layout_constraintStart_toStartOf="@+id/btnShield"
         app:layout_constraintTop_toBottomOf="@+id/btnShield" />
 
+
     <TextView
         android:id="@+id/textDumbbell"
         android:layout_width="wrap_content"
