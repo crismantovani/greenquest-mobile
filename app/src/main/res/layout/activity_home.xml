@@ -11,6 +11,7 @@
         android:id="@+id/Background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/dc_background"
         android:scaleType="fitXY"
         android:src="@drawable/background"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,7 +20,7 @@
     <ImageView
         android:id="@+id/topBar"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="140dp"
         android:background="#5C9249"
         android:contentDescription="@string/dc_top_home"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,11 +45,43 @@
         android:layout_width="50dp"
         android:layout_height="51dp"
         android:layout_marginStart="36dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/img_user"
+        android:contentDescription="@string/btn_user"
         app:layout_constraintStart_toStartOf="@+id/topBar"
         app:layout_constraintTop_toTopOf="@+id/topBar"
         app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/textSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_subtitle"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textUser"
+        app:layout_constraintTop_toBottomOf="@+id/textUser" />
+
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/border_edit_text"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/txt_search"
+        android:importantForAutofill="noExcludeDescendants"
+        android:inputType="textFilter"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:textColor="#131F0F"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="@+id/textSubtitle"
+        app:layout_constraintStart_toStartOf="@+id/btnUser"
+        app:layout_constraintTop_toBottomOf="@+id/textSubtitle" />
 
     <ImageButton
         android:id="@+id/btnShield"
@@ -126,6 +159,7 @@
         android:id="@+id/imgDog"
         android:layout_width="107dp"
         android:layout_height="186dp"
+        android:layout_marginStart="20dp"
         android:layout_marginBottom="8dp"
         android:contentDescription="@string/dc_mascot"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -140,19 +174,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/plant" />
+
     <TextView
         android:id="@+id/textUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:text="@string/txt_user"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/btnUser"
-        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintEnd_toEndOf="@+id/topBar"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toEndOf="@+id/btnUser"
         app:layout_constraintTop_toTopOf="@+id/topBar" />
+
     <TextView
         android:id="@+id/textMenu"
         android:layout_width="wrap_content"
@@ -230,5 +266,6 @@
         app:layout_constraintEnd_toEndOf="@+id/btnMore"
         app:layout_constraintStart_toStartOf="@+id/btnMore"
         app:layout_constraintTop_toBottomOf="@+id/btnMore" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
