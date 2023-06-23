@@ -3,9 +3,9 @@
     <string name="app_name">GreenQuest</string>
     <string name="text_email">Digite seu e-mail</string>
     <string name="text_password">Digite sua senha</string>
-    <string name="btn_login">Login</string>
-    <string name="signup">Não tem uma conta?</string>
-    <string name="link_signup">Cadastra-se</string>
+    <string name="btn_login">Entrar</string>
+    <string name="signup">Não tem uma conta? Registre-se aqui</string>
+    <string name="link_signup">Link para cadastro</string>
 
 <!--     TELA DE CADASTRO-->
     <string name="signup_name">Digite seu nome</string>
@@ -13,6 +13,8 @@
     <string name="signup_password">Cadastre uma senha</string>
     <string name="confirm_password">Confirme sua senha</string>
     <string name="btn_register">Cadastrar</string>
+    <string name="login">Já possui conta? Entre aqui</string>
+    <string name="link_login">Link para tela de login</string>
 
 <!--    TELA PRINCIPAL-->
     <string name="txt_user">Olá, Thais!</string>
@@ -27,13 +29,13 @@
     <string name="txt_more">Mais</string>
 
 <!--    DESCRIÇÃO DE IMAGENS-->
-    <string name="dc_vetor">Desenho ondulado na cor verde</string>
     <string name="dc_logo">Logo do aplicativo GreenQuest</string>
     <string name="dc_background">Desenho de uma floresta</string>
     <string name="dc_top_home">Desenho retângulo verde</string>
     <string name="dc_background_home">Fundo verde</string>
     <string name="dc_mascot">Cachorro Robô</string>
     <string name="dc_plants">Desenho de uma planta</string>
+    <string name="dc_frame">Desenho de uma linha</string>
 
 <!--    DESCRIÇÃO BOTÕES-->
     <string name="btn_user">Botão Usuário</string>
@@ -43,4 +45,5 @@
     <string name="btn_forum">Botão Fórum</string>
     <string name="btn_store">Botão Loja</string>
     <string name="btn_more">Botão Mais</string>
+    <string name="btn_google">Botão para logar com sua conta Google</string>
 </resources>
