@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         textView.text = spannableString
         textView.movementMethod = LinkMovementMethod.getInstance()
+
     }
 
 }
