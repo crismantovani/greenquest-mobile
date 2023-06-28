@@ -12,6 +12,9 @@
         android:theme="@style/Theme.GreenQuest"
         tools:targetApi="31">
         <activity
+            android:name=".LearnActivity"
+            android:exported="false" />
+        <activity
             android:name=".LeaguesActivity"
             android:exported="false" />
         <activity
@@ -25,10 +28,10 @@
         </activity>
         <activity
             android:name=".SignUp"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Home"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
