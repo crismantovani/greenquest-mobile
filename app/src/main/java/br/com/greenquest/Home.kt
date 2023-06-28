@@ -2,7 +2,6 @@ package br.com.greenquest
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import br.com.greenquest.R.id.btnLeagues
@@ -21,5 +20,14 @@ class Home : AppCompatActivity() {
             startActivity(i)
 
         }
+
+        val btnlearn = findViewById< ImageButton>(R.id.btnLearn)
+
+        btnlearn.setOnClickListener {
+            val i = Intent(this, LearnActivity::class.java)
+            startActivity(i)
+
+        }
+
     }
 }
