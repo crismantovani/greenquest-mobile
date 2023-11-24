@@ -6,7 +6,7 @@ import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import br.com.greenquest.R.id.btnLeagues
 
-class Home : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +25,14 @@ class Home : AppCompatActivity() {
 
         btnlearn.setOnClickListener {
             val i = Intent(this, LearnActivity::class.java)
+            startActivity(i)
+
+        }
+
+        val btnpractice = findViewById< ImageButton>(R.id.btnPractice)
+
+        btnpractice.setOnClickListener {
+            val i = Intent(this, PracticeActivity::class.java)
             startActivity(i)
 
         }

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtPractice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF3E8"
+    tools:context=".PracticeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="413dp"
+        android:layout_height="85dp"
+        android:background="#EBF3E8"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/ic_profile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/dc_user"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintStart_toEndOf="@+id/logoLearn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_profile" />
+
+        <ImageView
+            android:id="@+id/logoLearn"
+            android:layout_width="85dp"
+            android:layout_height="76dp"
+            android:contentDescription="@string/dc_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EBF3E8"
+        android:padding="24dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/total_question"
+            android:text="Total Questions "
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/choices_layout"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="This will be the question"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/choices_layout"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ans_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:text="Ans A"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ans_B"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:text="Ans B"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ans_C"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:text="Ans C"
+                android:textColor="@color/black"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ans_D"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/white"
+                android:text="Ans D"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="358dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/choices_layout"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#5C9249"
+            android:fontFamily="@font/heebo_medium"
+            android:text="ENVIAR"
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
